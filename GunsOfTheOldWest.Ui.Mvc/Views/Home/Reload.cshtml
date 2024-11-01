@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Koop Kogels</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+<h2>Koop een kogelpakket:</h2>
+<div class="button-container">
+    <form asp-action="BuyBullets" method="post">
+        <button type="submit" name="amount" value="2" class="buy-button">Koop 2 kogels voor €1</button>
+        <button type="submit" name="amount" value="7" class="buy-button">Koop 7 kogels voor €4</button>
+        <button type="submit" name="amount" value="12" class="buy-button">Koop 12 kogels voor €7</button>
+    </form>
+</div>
+
+<form asp-action="Index">
+    <br/>
+    <button type="submit" class="return-button">Terug naar Startscherm</button>
+</form>
+</body>
+</html>
+
+

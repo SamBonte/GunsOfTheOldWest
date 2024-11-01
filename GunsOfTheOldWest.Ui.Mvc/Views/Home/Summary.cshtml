@@ -1,0 +1,29 @@
+﻿@model GunsOfTheOldWest.Ui.Mvc.Models.UserModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Samenvatting</title>
+    <link rel="stylesheet" href="~/css/authorstyles.css">
+</head>
+<body>
+<h2>Samenvatting</h2>
+<br/>
+<p><strong>Voornaam:</strong> @Model.FirstName</p>
+<p><strong>Familienaam:</strong> @Model.LastName</p>
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Telefoonnummer:</strong> @Model.PhoneNumber</p>
+<p><strong>Datum van indiening:</strong> @ViewBag.SubmitDate</p>
+
+<div class="author-info">
+    <h4>Over de auteur</h4>
+    <p>Gemaakt door: Sam Bonte</p>
+</div>
+
+<form asp-action="Index">
+    <br />
+    <button type="submit" class="return-button">Terug naar Startscherm</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Guns of the Old West";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/startpagestyles.css"/>
+</head>
+<body>
+<!-- Titel bovenaan de pagina -->
+<h1>Guns of the Old West</h1>
+    
+<!-- Formulier met de schietknop -->
+<form asp-action="Shoot" method="post">
+    <button type="submit" class="shoot-button">Schiet</button>
+</form>
+    
+<!-- Statusbericht met resterende kogels onder de knop -->
+<div class="status-message">@ViewBag.Message</div>
+</body>
+</html>

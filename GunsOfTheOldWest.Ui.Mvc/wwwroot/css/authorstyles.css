@@ -1,0 +1,15 @@
+﻿/* Stijl over-de-auteur blokje */
+.author-info {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+    .author-info h4 {
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+
+.back-button {
+    margin-top: 20px;
+}

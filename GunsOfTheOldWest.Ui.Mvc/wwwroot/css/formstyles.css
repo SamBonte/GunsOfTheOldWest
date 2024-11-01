@@ -1,0 +1,39 @@
+﻿/* Stijl formulier */
+.form-container {
+    border: 2px solid gray; 
+    border-radius: 10px; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    max-width: 400px; 
+    margin: 20px auto; 
+}
+
+/* Stijl inputvelden */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+button {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+/* Stijl knop */
+button {
+    background-color: silver; 
+    border: 2px solid darkgray; 
+    cursor: pointer; 
+}
+
+    /* Hover effect knop */
+    button:hover {
+        background-color: darkgray; 
+        color: white; 
+    }
+
+span {
+    color: red;
+}
